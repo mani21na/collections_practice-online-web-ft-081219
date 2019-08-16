@@ -24,10 +24,8 @@ def reverse_array(array_integers)
   array_integers.reverse
 end
 
-def kesha_maker(array_strings)
-  new_array = []
-  array_strings.each do |word|
-    new_array <<  word.to_a[2] = "$"
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
   end
-  new_array
 end
