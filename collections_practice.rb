@@ -34,5 +34,7 @@ def find_a(array_strings)
   array_strings.find_all{|word| word[0] == "a"} 
 end
 
-
+def sum_array(array)
+  
+end
 
